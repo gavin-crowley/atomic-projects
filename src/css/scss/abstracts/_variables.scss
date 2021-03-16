@@ -1,0 +1,116 @@
+/*------------------------------------*\
+    #VARIABLES
+\*------------------------------------*/
+
+/*------------------------------------*\
+     #COLORS
+ \*------------------------------------*/
+
+/**
+ * Brand Colors
+ * 1) Brand=specific colors
+ */
+$color-primary: #05cbe9;
+$color-secondary: #111d4a;
+
+/**
+ * Neutral Colors
+ * 1) Neutral colors are grayscale values used throughout the UI
+ */
+$color-white: #fff;
+
+/**
+ * Utility Colors
+ * 1) Utility colors are colors used to provide feedback, such as alert messages,
+ *    form validation, etc.
+ */
+
+/*------------------------------------*\
+    #TYPOGRAPHY
+\*------------------------------------*/
+
+/**
+ * Font Family
+ */
+@import url(https://fonts.googleapis.com/css?family=Blinker:400,700|Source+Sans+Pro&display=swap);
+
+$font-primary: 'Blinker', sans-serif;
+$font-secondary: 'Source Sans Pro', sans-serif;
+
+/**
+ * Font Sizing
+ */
+// $font-size-sm: 0.75rem;
+// $font-size-sm-2: 0.85rem;
+$font-size-med: 1rem;
+$font-size-med-2: 1.125rem;
+$font-size-med-3: 1.25rem;
+$font-size-large: 1.75rem;
+$font-size-xl: 3rem;
+
+/**
+ * Line Height
+ */
+$line-height: 1.6;
+
+/*------------------------------------*\
+    #LAYOUT
+\*------------------------------------*/
+
+/**
+ * Max Width
+ */
+$l-max-width: 50rem !default;
+// $l-linelength-width: 36rem !default;
+
+/*------------------------------------*\
+    #SPACING
+\*------------------------------------*/
+
+/**
+ * Spacing and offsets
+ * 1) Used to space grids and body padding
+ */
+
+// $spacing: 1rem;
+// $spacing-small: 0.5rem;
+// $spacing-large: 2rem;
+
+/*------------------------------------*\
+    #BORDERS
+\*------------------------------------*/
+
+/**
+ * Border
+ */
+// $border-thickness: 1px;
+
+/**
+ * Border radius
+ */
+// $border-radius: 4px;
+
+/*------------------------------------*\
+    #ANIMATION
+\*------------------------------------*/
+
+/**
+ * Transition Speed
+ */
+
+/**
+ * Transition Ease
+ */
+
+/*------------------------------------*\
+    #BREAKPOINTS
+\*------------------------------------*/
+
+/**
+ * Breakpoints used in media queries
+ * 1) These are not the only breakpoints used, but they provide a few defaults
+ */
+// $bp-small: 28em;
+$bp-med: 37.5em;
+// $bp-large: 60em;
+// $bp-xl: 70em;

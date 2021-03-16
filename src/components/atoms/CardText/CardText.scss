@@ -1,0 +1,14 @@
+@import '../../../css/scss/abstracts/variables';
+@import '../../../css/scss/abstracts/mixins';
+
+.c-card__title {
+  color: $color-primary;
+  font-size: $font-size-large;
+}
+
+.c-card__body {
+  font-size: $font-size-med;
+  font-family: $font-secondary;
+  line-height: $line-height;
+  margin: 1.125em 0;
+}

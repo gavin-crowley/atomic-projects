@@ -1,0 +1,11 @@
+@import '../../../css/scss/abstracts/variables';
+@import '../../../css/scss/abstracts/mixins';
+
+.c-btn {
+  font-size: $font-size-med-2;
+  background: $color-primary;
+  color: $color-secondary;
+  font-weight: 700;
+  padding: 0.35em 1em;
+  letter-spacing: 1px;
+}

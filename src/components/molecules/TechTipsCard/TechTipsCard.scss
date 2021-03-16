@@ -1,0 +1,74 @@
+@import '../../../css/scss/abstracts/variables';
+@import '../../../css/scss/abstracts/mixins';
+
+.c-card {
+  width: 90%;
+  max-width: $l-max-width;
+  background: $color-secondary;
+  color: $color-white;
+  display: flex;
+  flex-direction: column;
+}
+
+.c-card__img {
+  object-fit: cover;
+  flex-basis: 200px;
+  min-width: 0;
+  min-height: 0;
+}
+
+.c-card__content {
+  padding: 1em;
+}
+
+.c-card__title,
+.c-card__read-time,
+.c-btn {
+  font-family: $font-primary;
+}
+
+.c-card__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 3em;
+}
+
+.c-card__read-time {
+  opacity: 0.6;
+  line-height: 1;
+}
+
+.c-card__read-time span {
+  font-weight: 700;
+  display: block;
+  font-size: $font-size-med-3;
+}
+
+@media (min-width: $bp-med) {
+  .c-card {
+    flex-direction: row;
+  }
+
+  .c-card__img {
+    height: 300px;
+  }
+
+  .c-card__content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .c-card__title {
+    font-size: 2.25rem;
+  }
+
+  .c-card__body {
+    font-size: $font-size-med-2;
+    max-width: 500px;
+  }
+
+  .c-card__footer {
+    margin-top: auto;
+  }
+}
