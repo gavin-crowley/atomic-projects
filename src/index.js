@@ -2,6 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import './css/styles.css'
 
+// comment
+
 import TechTipsCard from './components/molecules/TechTipsCard/TechTipsCard'
 
 import { cardInfo } from './data/data'
